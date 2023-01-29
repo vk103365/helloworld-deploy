@@ -14,7 +14,7 @@ spec:
         app: helloworld-ui
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: varunk/hello-world:1.0
         name: helloworld-ui
         ports:
         - containerPort: 80
